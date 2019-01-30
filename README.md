@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [![Build status](https://ci.appveyor.com/api/projects/status/5y76tvvcxbbofol1/branch/master?svg=true)](https://ci.appveyor.com/project/JacobDuijzer88395/clonetfsvariablegroup/branch/master)
 
 # CloneTfsVariableGroup
