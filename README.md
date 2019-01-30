@@ -1,4 +1,4 @@
-# TFSVariableGroupCopier
+# CloneTfsVariableGroup
 
 A simple tool to clone a variable group in TFS. Provide a TFS instance url and an access token and it will provide a list of projects and variable groups.
 
