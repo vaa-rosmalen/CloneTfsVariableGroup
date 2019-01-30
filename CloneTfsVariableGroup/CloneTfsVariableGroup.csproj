@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackAsTool>true</PackAsTool>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>7.3</LangVersion>
+    <ToolCommandName>CloneTfsVariableGroup</ToolCommandName>
+    <PackageId>clonetfsvariablegroup-cli</PackageId>
+    <AssemblyName>clone-tfs-variable-group</AssemblyName>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Jacob Duijzer</Authors>
+    <Company>VAA Rosmalen</Company>
+    <PackageProjectUrl>https://github.com/vaa-rosmalen/CloneTfsVariableGroup</PackageProjectUrl>
+    <license>https://github.com/vaa-rosmalen/CloneTfsVariableGroup/blob/master/LICENSE</license>
+    <PackageTags>tfs, variable group, clone tool</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.4.3" />
+    <PackageReference Include="Refit" Version="4.6.58" />
+  </ItemGroup>
+
+</Project>
