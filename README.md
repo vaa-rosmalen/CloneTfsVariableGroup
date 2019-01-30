@@ -1,3 +1,6 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/5y76tvvcxbbofol1/branch/master?svg=true)](https://ci.appveyor.com/project/JacobDuijzer88395/clonetfsvariablegroup/branch/master)
+
+
 # TFSVariableGroupCopier
 
 A simple tool to clone a variable group in TFS. Provide a TFS instance url and an access token and it will provide a list of projects and variable groups.
