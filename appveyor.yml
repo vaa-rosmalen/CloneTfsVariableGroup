@@ -3,5 +3,5 @@ configuration: Release
 platform: Any CPU
 
 build_script:
-  - nuget restore
-  - nuget pack  
+  - nuget restore  
+  - dotnet pack
