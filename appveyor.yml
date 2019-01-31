@@ -2,6 +2,19 @@ image: Visual Studio 2017
 configuration: Release
 platform: Any CPU
 
+init:
+- ps: $env:customnugetversion = if ($env:APPVEYOR_REPO_BRANCH  -eq "master") { "$env:APPVEYOR_BUILD_VERSION" } else { "$env:APPVEYOR_BUILD_VERSION-beta" }
+- ps: Update-AppveyorBuild -Version $env:customnugetversion
+
 build_script:
   - nuget restore  
-  - dotnet pack
+  - dotnet pack -p:PackageVersion=%customnugetversion%
+
+artifacts:
+  - path: '**\*.nupkg'
+
+deploy:
+    provider: NuGet    
+    api_key:
+        secure: LRoT5YeCRtEACd+jSIcEG3IKN0IBWsYzcROsocgIK0PB2/ObGAxjefV4bXqYo4qs
+        skip_symbols: false  

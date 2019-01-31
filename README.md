@@ -9,7 +9,7 @@ A simple tool to clone a variable group in TFS. Provide a TFS instance url and a
 Make sure you have .NET Core 2.2 or newer installed. Run the following command:
 
 ```
-clonetfsvariablegroup
+dotnet tool install -g clonetfsvariablegroup-cli
 ```
 
 Run the tool to start cloning:

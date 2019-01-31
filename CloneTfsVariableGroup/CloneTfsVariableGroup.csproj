@@ -13,6 +13,7 @@
     <Company>VAA Rosmalen</Company>
     <PackageProjectUrl>https://github.com/vaa-rosmalen/CloneTfsVariableGroup</PackageProjectUrl>
     <license>https://github.com/vaa-rosmalen/CloneTfsVariableGroup/blob/master/LICENSE</license>
+    <Description>A commandline tool to easily clone TFS variable groups</Description>
     <PackageTags>tfs, variable group, clone tool</PackageTags>
   </PropertyGroup>
 
