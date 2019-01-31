@@ -7,7 +7,7 @@
     <LangVersion>7.3</LangVersion>
     <ToolCommandName>CloneTfsVariableGroup</ToolCommandName>
     <PackageId>clonetfsvariablegroup-cli</PackageId>
-    <AssemblyName>clone-tfs-variable-group</AssemblyName>
+    <AssemblyName>CloneTfsVariableGroup</AssemblyName>
     <PackageVersion>1.0.0</PackageVersion>
     <Authors>Jacob Duijzer</Authors>
     <Company>VAA Rosmalen</Company>
