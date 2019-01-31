@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/5y76tvvcxbbofol1/branch/master?svg=true)](https://ci.appveyor.com/project/JacobDuijzer88395/clonetfsvariablegroup/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/5y76tvvcxbbofol1/branch/master?svg=true)](https://ci.appveyor.com/project/JacobDuijzer88395/clonetfsvariablegroup/branch/master) [![Nuget status](https://buildstats.info/nuget/clonetfsvariablegroup-cli?includePreReleases=false)](https://www.nuget.org/packages/clonetfsvariablegroup-cli/) 
 
 # CloneTfsVariableGroup
 
